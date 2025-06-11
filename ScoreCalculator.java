@@ -5,11 +5,15 @@ public class ScoreCalculator {
         int sum = 0;
         for (int score : scores) {
             sum += score;
+            int max = scores[0];
+            int min = scores[0];
+
         }
 
         double average = (double) sum / scores.length;
 
         System.out.println("Sum: " + sum);
         System.out.println("Average: " + average);
+
     }
 }
